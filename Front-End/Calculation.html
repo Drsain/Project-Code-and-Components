@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="itr">
+<head>
+	<meta charset="utf-8">
+	<title> Calculator </title>
+	<link rel="stylesheet" href="calculationStyle.css">
+</head>
+<body>
+	<form class="form" >
+		<h1 class="font-weight-bold"> Fill in the Form to add an Asset or Liability to the data </h1>
+		<input type="text" placeholder="Enter name of Asset or Liability">
+		<ul>
+  			<li>
+    			<input type="radio" id="a" name="selector">
+    			<label for="a">Asset</label>
+    
+    			<div class="check"></div>
+  			</li>
+  
+  			<li>
+    			<input type="radio" id="s" name="selector">
+    			<label for="s">Liability</label>
+    
+    			<div class="check"><div class="inside"></div></div>
+  			</li>
+		</ul>
+		<input type="text" placeholder="Enter value of Asset or Liability">
+		<select class = "select-css">
+			<option selected> Choose a category </option>
+			<option> Property </option>
+			<option> Stocks </option>
+			<option> Bank Accounts </option>
+			<option> Credit Cards </option>
+			<option> Loans </option>
+			<option> ... </option>
+		</select>
+		<input type="submit" value="Add Asset/Liability">
+	</form>
+</body>
