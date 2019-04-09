@@ -3,15 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title> Login </title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="loginStyle.css">
+	 <script src="add.js"></script> 
+	
 </head>
 <body>
-	<form class="box" action="login.html" method="post">
-		<h1 class="font-weight-bold"> Login </h1>
-		<input type="text" placeholder="Username">
-		<input type="password" placeholder="Password">
-		<input type="submit" value="Login">
 
-	</form>
+	<div class="head" w3-include-html="header.html"></div> 
+	<div>
+		<form class="box" action="login.html" method="post">
+			<h1 class="font-weight-bold"> Login </h1>
+			<input type="text" placeholder="Username">
+			<input type="password" placeholder="Password">
+			<input type="submit" value="Login">
+		</form>
+		<footer w3-include-html="footer.html"></footer>
+	</div>
+	<script>
+		includeHTML();
+	</script>
+	
 </body>
 </html>

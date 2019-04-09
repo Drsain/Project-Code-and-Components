@@ -67,3 +67,17 @@ body
 {
 	background: #2ecc71;
 }
+
+.head {
+    padding: 10px;
+  	background: #2f3542
+}
+
+footer {
+	background-color: #2f3542;
+	padding: 10px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
