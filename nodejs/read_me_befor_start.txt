@@ -5,7 +5,7 @@ before start the program you need to change some file.
 
 
 	2:inside backend/bin/configure_db.sh
-					update databse_user_password
+					update database_name and password for database_user
 -----------------------------------------------------------------------------------------
 
 if the database still not working and get some error about peer.
