@@ -4,10 +4,10 @@ export PGPASSWORD='change this to your postgres password'
 
 echo "Configuring database"
 
-dropdb -U postgres project
-createdb -U postgres project
+dropdb -U postgres change_this_to_your_database_name
+createdb -U postgres change_this_to_your_database_name
 
 
-psql -U postgres project < ./bin/sql/account.sql
+psql -U postgres change_this_to_your_database_name < ./bin/sql/account.sql
 
 echo "finished"
